@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Calculator</h1>
+
+<form id="calculatorForm" method="post" action="">
+  <label for="inputA">Tham số 1:</label>
+  <input type="number" name="number1" id="inputA" required>
+
+  <label for="operator">Phép tính:</label>
+  <select id="operator" name="calculation" required>
+    <option value="+">Cộng (+)</option>
+    <option value="-">Trừ (-)</option>
+    <option value="*">Nhân (*)</option>
+    <option value="/">Chia (/)</option>
+  </select>
+
+  <label for="inputB">Tham số 2:</label>
+  <input type="number" id="inputB" name="number2" required>
+
+  <button type="submit">Tính toán</button>
+</form>
+<p id="result"></p>
+</body>
+</html>
